@@ -3,7 +3,7 @@ import Navigation from "./navigatorbar";
 import AethosMap from "./map";
 
 import whiteImage from "./images/backgrounds/executive-bg.jpg";
-// import missionImage from "./images/backgrounds/LIGHT-BG-1.jpg";
+import missionImage from "./images/backgrounds/LIGHT-BG-1.jpg";
 // import slateImage from "./images/backgrounds/IMG_7195-copy-1.jpg";
 // import bottegaBg from "./images/backgrounds/bottega-bg-1.jpg";
 // import bussinesBg from "./images/backgrounds/bfi-bg.jpg";
