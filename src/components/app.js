@@ -10,8 +10,8 @@ import bussinesBg from "./images/backgrounds/bfi-bg.jpg";
 
 import slateWhiteLogo from "./images/logos/Slate-Logo-2.png";
 import slateLogo from "./images/logos/Artboard-5.png";
-// import bottegaLogo from "./images/logos/Artboard-1.png";
-// import bottegaWhiteLogo from "./images/logos/Bottega-logo-pack.png";
+import bottegaLogo from "./images/logos/Artboard-1.png";
+import bottegaWhiteLogo from "./images/logos/Bottega-logo-pack.png";
 // import huduLogo from "./images/logos/Hudu-logo-3.png";
 // import huduGreyLogo from "./images/logos/Hudu-logo-grey.png";
 // import featherImage from "./images/logos/Hudu-feather.png";
