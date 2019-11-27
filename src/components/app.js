@@ -4,9 +4,9 @@ import AethosMap from "./map";
 
 import whiteImage from "./images/backgrounds/executive-bg.jpg";
 import missionImage from "./images/backgrounds/LIGHT-BG-1.jpg";
-// import slateImage from "./images/backgrounds/IMG_7195-copy-1.jpg";
-// import bottegaBg from "./images/backgrounds/bottega-bg-1.jpg";
-// import bussinesBg from "./images/backgrounds/bfi-bg.jpg";
+import slateImage from "./images/backgrounds/IMG_7195-copy-1.jpg";
+import bottegaBg from "./images/backgrounds/bottega-bg-1.jpg";
+import bussinesBg from "./images/backgrounds/bfi-bg.jpg";
 
 // import slateWhiteLogo from "./images/logos/Slate-Logo-2.png";
 // import slateLogo from "./images/logos/Artboard-5.png";
@@ -21,6 +21,7 @@ import missionImage from "./images/backgrounds/LIGHT-BG-1.jpg";
 // import bfWhiteLogo from "./images/logos/bfi-logo-1.png";
 // import ringSevenLogo from "./images/logos/ring-seven-logo.png";
 // import bpuLogo from "./images/logos/BPU-Logo.png";
+
 // import filiImage from "./images/team/Fili.jpg";
 // import ericImage from "./images/team/EricWold.jpg";
 
