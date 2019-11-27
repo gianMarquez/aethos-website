@@ -1,7 +1,7 @@
 import React from "react";
 
-import filiImage from "./images/team/Fili.jpg";
-import ericImage from "./images/team/EricWold.jpg";
+// import filiImage from "./images/team/Fili.jpg";
+// import ericImage from "./images/team/EricWold.jpg";
 
 const TeamSection = () => {
   return (
