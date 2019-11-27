@@ -20,12 +20,10 @@ import villageLogo from "./images/logos/village-logo.png";
 import bfLogo from "./images/logos/bussines-logo.png";
 import bfWhiteLogo from "./images/logos/bfi-logo-1.png";
 import ringSevenLogo from "./images/logos/ring-seven-logo.png";
-// import bpuLogo from "./images/logos/BPU-Logo.png";
-
-import filiImage from "./images/team/Fili.jpg";
-import ericImage from "./images/team/EricWold.jpg";
+import bpuLogo from "./images/logos/BPU-Logo.png";
 
 import { FaMapMarkerAlt } from "react-icons/fa";
+import TeamSection from "./team";
 
 export default class App extends Component {
   render() {
@@ -175,49 +173,7 @@ export default class App extends Component {
           <img src={missionImage} />
         </div>
 
-        <div id="team" className="executive-team-wrapper">
-          <div className="team-text-header">
-            <div className="title">
-              <h1>Executive team</h1>
-            </div>
-            <div className="subtitle">
-              <p>
-                The Aethos executive team is filled with some of the most
-                incredible industry talent. They are a tightly knit team capable
-                of executing even the most ambitious goals. They bring with them
-                decades of experience and knowledge.
-              </p>
-            </div>
-          </div>
-
-          <div className="team-images-wrapper">
-            <div className="grid-row">
-              <div className="block-1">
-                <div className="image-picture">
-                  <div className="team-detail">
-                    <h4>Fili Ledezma</h4>
-                    <p>M</p>
-                  </div>
-                  <img src={filiImage} />
-                </div>
-                <div className="image-picture">
-                  <div className="team-detail">
-                    <h4>Eric wold</h4>
-                    <p>Cheif Executive Office</p>
-                  </div>
-                  <img src={ericImage} />
-                </div>
-                <div className="image-picture">
-                  <div className="team-detail">
-                    <h4>Fili Ledezma</h4>
-                    <p>M</p>
-                  </div>
-                  <img src={filiImage} />
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
+        <TeamSection />
 
         <div className="links-wrapper">
           <div id="slate" className="slate-block">
