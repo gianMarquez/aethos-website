@@ -22,8 +22,8 @@ import bussinesBg from "./images/backgrounds/bfi-bg.jpg";
 // import ringSevenLogo from "./images/logos/ring-seven-logo.png";
 // import bpuLogo from "./images/logos/BPU-Logo.png";
 
-// import filiImage from "./images/team/Fili.jpg";
-// import ericImage from "./images/team/EricWold.jpg";
+import filiImage from "./images/team/Fili.jpg";
+import ericImage from "./images/team/EricWold.jpg";
 
 import { FaMapMarkerAlt } from "react-icons/fa";
 
