@@ -18,7 +18,7 @@ import featherImage from "./images/logos/Hudu-feather.png";
 import dashLogo from "./images/logos/Artboard-4.png";
 import villageLogo from "./images/logos/village-logo.png";
 import bfLogo from "./images/logos/bussines-logo.png";
-// import bfWhiteLogo from "./images/logos/bfi-logo-1.png";
+import bfWhiteLogo from "./images/logos/bfi-logo-1.png";
 // import ringSevenLogo from "./images/logos/ring-seven-logo.png";
 import bpuLogo from "./images/logos/BPU-Logo.png";
 
