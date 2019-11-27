@@ -8,12 +8,12 @@ import slateImage from "./images/backgrounds/IMG_7195-copy-1.jpg";
 import bottegaBg from "./images/backgrounds/bottega-bg-1.jpg";
 import bussinesBg from "./images/backgrounds/bfi-bg.jpg";
 
-import slateWhiteLogo from "./images/logos/Slate-Logo-2.png";
+// import slateWhiteLogo from "./images/logos/Slate-Logo-2.png";
 import slateLogo from "./images/logos/Artboard-5.png";
 import bottegaLogo from "./images/logos/Artboard-1.png";
 import bottegaWhiteLogo from "./images/logos/Bottega-logo-pack.png";
 import huduLogo from "./images/logos/Hudu-logo-3.png";
-import huduGreyLogo from "./images/logos/Hudu-logo-grey.png";
+// import huduGreyLogo from "./images/logos/Hudu-logo-grey.png";
 import featherImage from "./images/logos/Hudu-feather.png";
 import dashLogo from "./images/logos/Artboard-4.png";
 import villageLogo from "./images/logos/village-logo.png";
@@ -182,7 +182,7 @@ export default class App extends Component {
                 <div className="logo">
                   <img
                     style={{ width: "150px", height: "100%" }}
-                    src={slateWhiteLogo}
+                    src={bottegaWhiteLogo}
                   />
                 </div>
                 <div className="subtitle">
@@ -234,7 +234,7 @@ export default class App extends Component {
                   <h1>
                     <img
                       style={{ width: "250px", height: "100%" }}
-                      src={huduGreyLogo}
+                      src={bottegaWhiteLogo}
                     />
                   </h1>
                 </div>
