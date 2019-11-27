@@ -3,27 +3,29 @@ import Navigation from "./navigatorbar";
 import AethosMap from "./map";
 
 import whiteImage from "./images/backgrounds/executive-bg.jpg";
-import missionImage from "./images/backgrounds/LIGHT-BG-1.jpg";
-import slateImage from "./images/backgrounds/IMG_7195-copy-1.jpg";
-import bottegaBg from "./images/backgrounds/bottega-bg-1.jpg";
-import bussinesBg from "./images/backgrounds/bfi-bg.jpg";
+// import missionImage from "./images/backgrounds/LIGHT-BG-1.jpg";
+// import slateImage from "./images/backgrounds/IMG_7195-copy-1.jpg";
+// import bottegaBg from "./images/backgrounds/bottega-bg-1.jpg";
+// import bussinesBg from "./images/backgrounds/bfi-bg.jpg";
 
 // import slateWhiteLogo from "./images/logos/Slate-Logo-2.png";
-import slateLogo from "./images/logos/Artboard-5.png";
-import bottegaLogo from "./images/logos/Artboard-1.png";
-import bottegaWhiteLogo from "./images/logos/Bottega-logo-pack.png";
-import huduLogo from "./images/logos/Hudu-logo-3.png";
+// import slateLogo from "./images/logos/Artboard-5.png";
+// import bottegaLogo from "./images/logos/Artboard-1.png";
+// import bottegaWhiteLogo from "./images/logos/Bottega-logo-pack.png";
+// import huduLogo from "./images/logos/Hudu-logo-3.png";
 // import huduGreyLogo from "./images/logos/Hudu-logo-grey.png";
-import featherImage from "./images/logos/Hudu-feather.png";
-import dashLogo from "./images/logos/Artboard-4.png";
-import villageLogo from "./images/logos/village-logo.png";
-import bfLogo from "./images/logos/bussines-logo.png";
+// import featherImage from "./images/logos/Hudu-feather.png";
+// import dashLogo from "./images/logos/Artboard-4.png";
+// import villageLogo from "./images/logos/village-logo.png";
+// import bfLogo from "./images/logos/bussines-logo.png";
 // import bfWhiteLogo from "./images/logos/bfi-logo-1.png";
-import ringSevenLogo from "./images/logos/ring-seven-logo.png";
-import bpuLogo from "./images/logos/BPU-Logo.png";
+// import ringSevenLogo from "./images/logos/ring-seven-logo.png";
+// import bpuLogo from "./images/logos/BPU-Logo.png";
+
+// import filiImage from "./images/team/Fili.jpg";
+// import ericImage from "./images/team/EricWold.jpg";
 
 import { FaMapMarkerAlt } from "react-icons/fa";
-import TeamSection from "./team";
 
 export default class App extends Component {
   render() {
@@ -173,7 +175,49 @@ export default class App extends Component {
           <img src={missionImage} />
         </div>
 
-        <TeamSection />
+        <div id="team" className="executive-team-wrapper">
+          <div className="team-text-header">
+            <div className="title">
+              <h1>Executive team</h1>
+            </div>
+            <div className="subtitle">
+              <p>
+                The Aethos executive team is filled with some of the most
+                incredible industry talent. They are a tightly knit team capable
+                of executing even the most ambitious goals. They bring with them
+                decades of experience and knowledge.
+              </p>
+            </div>
+          </div>
+
+          <div className="team-images-wrapper">
+            <div className="grid-row">
+              <div className="block-1">
+                <div className="image-picture">
+                  <div className="team-detail">
+                    <h4>Fili Ledezma</h4>
+                    <p>M</p>
+                  </div>
+                  <img src={filiImage} />
+                </div>
+                <div className="image-picture">
+                  <div className="team-detail">
+                    <h4>Eric wold</h4>
+                    <p>Cheif Executive Office</p>
+                  </div>
+                  <img src={ericImage} />
+                </div>
+                <div className="image-picture">
+                  <div className="team-detail">
+                    <h4>Fili Ledezma</h4>
+                    <p>M</p>
+                  </div>
+                  <img src={filiImage} />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
 
         <div className="links-wrapper">
           <div id="slate" className="slate-block">
@@ -182,7 +226,7 @@ export default class App extends Component {
                 <div className="logo">
                   <img
                     style={{ width: "150px", height: "100%" }}
-                    src={bottegaWhiteLogo}
+                    src={slateWhiteLogo}
                   />
                 </div>
                 <div className="subtitle">
@@ -234,7 +278,7 @@ export default class App extends Component {
                   <h1>
                     <img
                       style={{ width: "250px", height: "100%" }}
-                      src={bottegaWhiteLogo}
+                      src={huduGreyLogo}
                     />
                   </h1>
                 </div>
@@ -266,7 +310,7 @@ export default class App extends Component {
                 <div className="logo">
                   <img
                     style={{ width: "250px", height: "100%" }}
-                    src={bottegaWhiteLogo}
+                    src={bfWhiteLogo}
                   />
                 </div>
 
