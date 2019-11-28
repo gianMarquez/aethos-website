@@ -166,6 +166,18 @@ html {
   }
 }
 
+@media (max-width: 900px) {
+  .Header-wrapper {
+    img {
+      height: 85vh;
+      width: 100vw;
+    }
+    .header-text {
+      padding: 10px 50px;
+    }
+  }
+}
+
 .grid-links-wrapper {
   img {
     height: auto;
