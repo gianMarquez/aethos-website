@@ -355,21 +355,20 @@ export default class App extends Component {
               <div className="form-wrapper">
                 {/* <form action="{{url_for('contact')}}" method="POST"> */}
                 {/* please add aditional information in python documents from twilio (if that the case) to made it work */}
-                <form>
-                  <div className="row-input-wrapper">
-                    <div className="input">
-                      <input type="text" placeholder="Name" />
-                    </div>
-
-                    <div className="input">
-                      <input type="text" placeholder="Email" />
-                    </div>
-
-                    <div className="input">
-                      <input type="text" placeholder="Phone #" />
-                    </div>
+                <div className="row-input-wrapper">
+                  <div className="input">
+                    <input type="text" placeholder="Name" />
                   </div>
-                </form>
+
+                  <div className="input">
+                    <input type="text" placeholder="Email" />
+                  </div>
+
+                  <div className="input">
+                    <input type="text" placeholder="Phone #" />
+                  </div>
+                </div>
+                {/* </form> */}
                 <div className="submit-btn">
                   <div className="link-btn">
                     <a>Send Message</a>

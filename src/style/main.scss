@@ -395,7 +395,7 @@ html {
 
   @media (max-width: 600px) {
     width: 100vw;
-    height: 85vh;
+    height: 65vh;
 
     img {
       width: 150vw;
@@ -421,6 +421,8 @@ html {
   .team-images-wrapper {
     display: flex;
     justify-content: center;
+    background-color: #f9f9f9;
+    padding: 35px 0px;
     width: 100vw;
 
     .grid-row {
@@ -510,7 +512,6 @@ html {
   .slate-block {
     width: 100vw;
     height: 100%;
-    margin-top: 25px;
     position: relative;
     overflow: hidden;
 
@@ -759,6 +760,24 @@ html {
         }
       }
     }
+
+    @media (max-width: 600px) {
+      height: 75vh;
+
+      .bf-text {
+        padding: 5%;
+        font-size: 0.9em;
+
+        .subtitle {
+          margin: 20% 0%;
+        }
+      }
+
+      img {
+        width: 150vw;
+        height: 85vh;
+      }
+    }
   }
 }
 
@@ -814,7 +833,7 @@ html {
 
         .row-input-wrapper {
           display: flex;
-          flex-direction: row;
+          flex-direction: column;
           justify-content: space-between;
 
           .input {
@@ -833,6 +852,7 @@ html {
           }
         }
       }
+
       .submit-btn {
         padding: 10%;
         display: flex;
@@ -854,6 +874,50 @@ html {
           &:hover {
             background-color: #2979ff;
             transition: 0.5s;
+          }
+        }
+      }
+    }
+  }
+
+  @media (max-width: 900px) {
+    width: 100vw;
+    height: 100vh;
+
+    .form-box {
+      width: 100vw;
+      height: 100vh;
+
+      .form-wrapper {
+        display: flex;
+        flex-direction: column;
+
+        .row-input-wrapper {
+          .input {
+            margin-top: 45px;
+            input {
+              width: 97vw;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 901px) {
+  .form-box-wrapper {
+    .form-box {
+      .form-content-wrapper {
+        display: flex;
+        flex-direction: column;
+
+        .form-wrapper {
+          .row-input-wrapper {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
           }
         }
       }
