@@ -346,8 +346,23 @@ html {
   }
 }
 
+@media (max-width: 600px) {
+  .grid-links-wrapper {
+    .grid-row {
+      .two-blocks {
+        display: flex;
+        flex-direction: column;
+
+        .logo-link {
+          width: 85vw;
+          height: auto;
+        }
+      }
+    }
+  }
+}
+
 .mission-wrapper {
-  // background-image: url(http://www.aethos.com/wp-content/uploads/2016/01/IMG_7195-copy-1.jpg);
   display: flex;
   flex-direction: column;
   height: 50%;
@@ -375,6 +390,16 @@ html {
         color: #2979ff;
         text-decoration: none;
       }
+    }
+  }
+
+  @media (max-width: 600px) {
+    width: 100vw;
+    height: 85vh;
+
+    img {
+      width: 150vw;
+      height: 65vh;
     }
   }
 }
@@ -485,6 +510,7 @@ html {
   .slate-block {
     width: 100vw;
     height: 100%;
+    margin-top: 25px;
     position: relative;
     overflow: hidden;
 
@@ -538,6 +564,17 @@ html {
         }
       }
     }
+
+    @media (max-width: 600px) {
+      width: 100vw;
+      height: 85vh;
+      font-size: 0.7em;
+
+      img {
+        width: 150vw;
+        height: 65vh;
+      }
+    }
   }
 
   .bottega-block {
@@ -587,6 +624,22 @@ html {
         }
       }
     }
+
+    @media (max-width: 600px) {
+      .bottega-column {
+        width: 100vw;
+        height: 65vh;
+        font-size: 0.9rem;
+        padding: 8% 8% 30% 35%;
+        display: flex;
+        align-items: center;
+      }
+
+      img {
+        width: 100vw;
+        height: 65vh;
+      }
+    }
   }
 
   .hudu-academy-block {
@@ -627,6 +680,14 @@ html {
           justify-content: center;
           width: auto;
         }
+      }
+    }
+
+    @media (max-width: 600px) {
+      .hudu-academy-column {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
       }
     }
   }
