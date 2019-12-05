@@ -1,3 +1,3 @@
 # Aethos website
 
-# [Aethos website](hhttps://aethos.herokuapp.com/)
+# [Aethos website](https://aethos.herokuapp.com/)
